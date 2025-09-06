@@ -1,0 +1,33 @@
+.agradecimento-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.agradecimento-box {
+    background-color: #ffff;
+    padding: 3rem;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    max-width: 600px;
+    width: 100%;
+}
+
+.agradecimento-box i {
+    font-size: 5rem;
+    color: #007BFF;
+    margin-bottom: 1.5rem;
+}
+
+.agradecimento-box h1 {
+    font-size: 2.5rem;
+    color: #343A40;
+    margin-bottom: 1rem;
+}
+
+.agradecimento-box p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+
+    header .container {
+        flex-direction: row; 
+    }
+    
+    .menu-toggle {
+        display: block;
+        z-index: 1;
+        margin-left: auto;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu-checkbox:checked ~ nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 58px;
+        right: 0;
+        width: 250px;
+        background-color: #fff;
+        border: 1px solid #eee;
+        border-radius: 8px 0 8px 8px;
+        padding: 1rem;
+        box-shadow: 0 4px 12px #000000;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .destaques-grid, .depoimentos-grid {
+        flex-direction: column;
+    }
+
+    .sobre-container {
+        grid-template-columns: 1fr;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+}

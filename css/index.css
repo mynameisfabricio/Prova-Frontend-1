@@ -1,0 +1,89 @@
+.hero {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+
+.destaques-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.destaque-item {
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    flex-basis: 30%;
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+}
+.destaque-item:hover {
+    transform: translateY(-5px);
+}
+.destaque-item i {
+    font-size: 3rem;
+    color: #006cdf;
+    margin-bottom: 1rem;
+}
+.destaque-item h3 {
+    color: #006cdf;
+    margin-bottom: 1rem;
+}
+
+.depoimentos {
+    background-color: #e9ecef;
+}
+.depoimentos-grid {
+    display: flex;
+    gap: 30px;
+}
+.depoimento-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 5px solid #006cdf;
+    flex-basis: 50%;
+}
+.depoimento-card blockquote p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.depoimento-card cite {
+    font-weight: bold;
+    color: #006cdf;
+}
+
+.chamada-acao-branca {
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding: 80px 20px;
+}
+.chamada-acao-branca h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+.chamada-acao-branca p {
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+    font-size: 1.1rem;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #343A40;
+    cursor: pointer;
+}
