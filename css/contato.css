@@ -4,14 +4,14 @@
     margin: 0 auto 3rem auto;
 }
 
-/* A MUDANÇA ESTÁ AQUI EMBAIXO */
 .form-contato {
     max-width: 700px;
     margin: 0 auto;
     background: #FFFFFF;
     padding: 2.5rem;
     border-radius: 8px;
-    border: 1px solid #b6b6b6; /* Adicionei esta borda cinza clara */
+    border: 1px solid #e0e0e0; 
+    box-shadow: none !important;
 }
 
 .form-grupo {
@@ -39,7 +39,7 @@
 .form-contato textarea:focus {
     outline: none;
     border-color: #007BFF;
-    box-shadow: none !important; 
+    box-shadow: none !important;
 }
 
 .form-contato button {
